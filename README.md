@@ -1,64 +1,20 @@
-# BlackRoad Developer Portal
+# blackroad-dev-portal
 
-Central hub for BlackRoad APIs, SDKs, and documentation.
+Developer portal - service catalog, SDKs, documentation
 
-## Live
+## Organization
 
-- **Portal**: https://blackroad-dev-portal.amundsonalexa.workers.dev
-- **Services API**: https://blackroad-dev-portal.amundsonalexa.workers.dev/api/services
-- **SDKs API**: https://blackroad-dev-portal.amundsonalexa.workers.dev/api/sdks
+**BlackRoad-OS** — Core platform — websites, integrations, coordination
 
-## Features
+## BlackRoad OS
 
-- **Service Catalog** - Browse all BlackRoad APIs and services
-- **Official SDKs** - TypeScript, Python, Go, Ruby, Rust
-- **Quick Start Guides** - Get up and running fast
-- **Live Status** - Real-time service health
+BlackRoad OS is a distributed AI operating system — 20 domains, 668 repositories, 1,000 AI agents, and sovereign infrastructure running on Raspberry Pis and Hailo-8 accelerators. No cloud dependency.
 
-## Services
+- [blackroad.io](https://blackroad.io) — Main platform
+- [docs.blackroad.io](https://docs.blackroad.io) — Documentation
+- [GitHub](https://github.com/BlackRoad-OS) — This organization
 
-| Service | Description | Status |
-|---------|-------------|--------|
-| GraphQL API | Unified GraphQL endpoint | stable |
-| Webhooks | 106 event types with HMAC signatures | stable |
-| Email Service | 9 beautiful email templates | stable |
-| Status Page | Real-time health monitoring | stable |
+**Language:** TypeScript
 
-## SDKs
 
-```bash
-# TypeScript/JavaScript
-npm install @blackroad/sdk
-
-# Python
-pip install blackroad
-
-# Go
-go get github.com/blackroad-os/blackroad-sdk-go
-
-# Ruby
-gem install blackroad
-
-# Rust
-cargo add blackroad
-```
-
-## API Endpoints
-
-### GET /api/services
-Returns list of all available services.
-
-### GET /api/sdks
-Returns list of official SDKs with install commands.
-
-## Development
-
-```bash
-npm install
-npm run dev      # Local development
-npm run deploy   # Deploy to Cloudflare
-```
-
-## License
-
-Proprietary - BlackRoad OS, Inc.
+*© 2024-2026 BlackRoad OS, Inc. All Rights Reserved.*
